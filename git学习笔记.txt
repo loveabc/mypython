@@ -7,3 +7,9 @@ git checkout first
 git branch
 4、推送新的分支到github
 git push origin first
+5、合并分支到当前分支
+git merge first
+6、删除分支
+git branch -d first
+7、删除github上的分支
+git push origin :first
