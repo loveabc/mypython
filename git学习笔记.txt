@@ -1,0 +1,9 @@
+git学习笔记
+1、分支的创建
+git branch first
+2、分支的切换
+git checkout first
+3、查看分支
+git branch
+4、推送新的分支到github
+git push origin first
