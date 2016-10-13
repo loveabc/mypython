@@ -1,4 +1,4 @@
-#使用smtp协议发送邮件
+##使用smtp协议发送邮件
 
 from email import encoders
 from email.header import Header 
@@ -52,7 +52,7 @@ with open(r'D:/home/test.jpg', 'rb') as f:
     # 设置附件的MIME和文件名，这里是png类型:
     mime = MIMEBase('image', 'png', filename='test.jpg')
     # 加上必要的头信息:
-    mime.add_header('Content-Disposition', 'attachment', filename='test.jpg')
+    mime.add_header('Content-Disposition', 'attachment', filename='cartoon.jpg')
     mime.add_header('Content-ID', '<0>')
     mime.add_header('X-Attachment-Id', '0')
     # 把附件的内容读进来:
